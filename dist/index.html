@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Dodge em': The endgame!</title>
+	<meta charset="utf-8">
+	<style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu&display=swap');
+		* {
+			margin: 0;
+		}
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+      margin: 0;
+      background: rgb(0,23,219);
+      background: linear-gradient(153deg, rgba(0,23,219,1) 16%, rgba(0,168,255,1) 96%);
+		}
+		canvas {
+			display: inline-block;
+      position: absolute;
+      left: 50%;
+      top: 20%;
+      -webkit-transform: translate(-50%, -20%);
+      transform: translate(-50%, -20%);
+		}
+	</style>
+</head>
+
+<body>
+
+  <h1 style="text-align: center; font-family: 'Press Start 2P', cursive; margin-top: 20px">Keep your cursor in this canvas!</h1>
+  <div id="canvas">
+  </div>
+  <script src="/dist/helper.js"></script>
+<script src="/dist/game.js"></script>
+
+  
+</body>
+
+</html>
